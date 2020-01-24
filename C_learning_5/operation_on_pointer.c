@@ -10,8 +10,14 @@ int main(void)
 	// the address of a pointer
 	printf("pointer value, dereferenced pointer, pointer address:\n");
 	printf("ptr1 = %p, *ptr1 =%d, &ptr1 = %p\n",
-		ptr1, *ptr1, &ptr1);//ptr1是指针指向的地址，*ptr是指针的值，&ptr 存放指针的地址
-
+		ptr1, *ptr1, &ptr1);
+	/*
+	ptr1是指针指向的地址，*ptr是指针的值，&ptr 存放指针的地址
+	int* ptr;
+	ptr=&urn[1];
+	&ptr;
+	*/
+	
 	// pointer addition
 	ptr3 = ptr1 + 4;
 	printf("\nadding an int to a pointer:\n");
