@@ -27,5 +27,8 @@
     <ClCompile Include="operation_on_pointer.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="ptr-array.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
