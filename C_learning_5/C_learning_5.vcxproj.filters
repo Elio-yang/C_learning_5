@@ -30,5 +30,8 @@
     <ClCompile Include="ptr-array.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="pointer_and_array1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
